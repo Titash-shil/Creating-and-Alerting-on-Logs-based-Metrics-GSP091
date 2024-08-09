@@ -26,8 +26,8 @@ gcloud logging metrics create stopped-vm --log-filter='resource.type="gce_instan
 cat > Hi.json <<EOF_CP
 {
   "type": "pubsub",
-  "displayName": "btecky",
-  "description": "btecky",
+  "displayName": "Qwiklab_EXploers_TS",
+  "description": "Qwiklab_EXploers_TS",
   "labels": {
     "topic": "projects/$DEVSHELL_PROJECT_ID/topics/notificationTopic"
   }
